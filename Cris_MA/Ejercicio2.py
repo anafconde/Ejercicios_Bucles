@@ -1,5 +1,5 @@
 #Author: Cris Moreno
-#Version: 7.70
+#Version: 7.77
 
 #Ejercicio 2
 #Crea una aplicación que permita adivinar un número. La aplicación genera un número
@@ -9,20 +9,21 @@
 #(además te dice en cuantos intentos lo has acertado), si se llega al limite de intentos 
 #te muestra el número que había generado.
 
-#Le falta afinar algunos detalles
 
 import random
 aleatorio=random.randint(1,100)
-contador=0
+contador=1
 while contador < 11:
     numero=int(input("Intenta adivinar un numero del 1 al 100: "))
     if numero == aleatorio:
-        print("Enhorabuena!, has acertado el numero")
+        print("Enhorabuena!, has acertado el numero 🏆🥇👏 ")
         break
     elif numero < aleatorio:
         print("El numero que buscas es MAYOR")
         print(f"Llevas {contador} intentos de 10 ")
     elif numero > aleatorio:
         print("El numero que buscas es MENOR")
+        print(f"Llevas {contador} intentos de 10 ")
     contador +=1
-print("Has agotado los intentos.")
+if contador==11:
+        print("Has agotado los intentos.")
