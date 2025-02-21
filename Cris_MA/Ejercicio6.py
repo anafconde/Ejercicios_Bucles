@@ -3,7 +3,7 @@
 ## **6️⃣ Ejercicio 6**: Números pares entre dos valores 🔢
 #Escribir un programa que imprima todos los números **pares** entre dos números que se le pidan al usuario.
 
-print("=Comprueba numeros pares=-")
+print("=Increible programa que comprueba numeros pares=-")
 num1=int(input("Dime un numero: "))
 num2=int(input("Dime otro numero: "))
 
