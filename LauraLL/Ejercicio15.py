@@ -4,13 +4,16 @@
 # Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó 10 €, el segundo 20 €, el tercero 40 € y así sucesivamente.
 # Realizar un algoritmo para determinar cuánto debe pagar mensualmente y el total de lo que pagó después de los 20 meses
 
-#-----Importador de programas----
+#----Importador de bibliotecas---
+import os
 
 #---Inicializador de variables---
 pago=10
-total=0
+total=10
 
 #---Inicializador del programa---
+    # Limpio la pantalla antes de entrar al programa
+os.system("cls")
 
 print(f"Durante el mes 1 tendrá que pagar {pago} €")
 

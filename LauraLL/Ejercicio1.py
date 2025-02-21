@@ -1,12 +1,19 @@
-#-----Autor:LauraLinares-----
-#---------Version:V1---------
-#Enunciado del ejercicio
-#Crea una aplicación que pida un número y calcule su factorial 
-#(El factorial de un número es el producto de todos los enteros entre 1 y el propio número y 
-#se representa por el número seguido de un signo de exclamación. Por ejemplo 5! = 1x2x3x4x5=120)
+#-------Autor:LauraLinares-------
+#-----------Version:V1-----------
+#-----Enunciado del ejercicio----
+# Crea una aplicación que pida un número y calcule su factorial 
+# (El factorial de un número es el producto de todos los enteros entre 1 y el propio número y 
+# se representa por el número seguido de un signo de exclamación. Por ejemplo 5! = 1x2x3x4x5=120)
 
-#--Iniciación de variables----
+#----Importador de bibliotecas---
+import os
+
+#---Inicializador de variables---
 fact=1
+
+#---Inicializador del programa---
+    # Limpio la pantalla antes de entrar al programa
+os.system("cls")
 
 numero=int(input("Por favor, introduzca un número: "))
 

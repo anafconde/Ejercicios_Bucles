@@ -1,7 +1,17 @@
-#-----Autor:LauraLinares-----
-#---------Version:V1---------
-#Enunciado del ejercicio
-#Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado
+#-------Autor:LauraLinares-------
+#-----------Version:V1-----------
+#-----Enunciado del ejercicio----
+# Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado
+
+#----Importador de bibliotecas---
+import os
+
+#---Inicializador de variables---
+
+
+#---Inicializador del programa---
+    # Limpio la pantalla antes de entrar al programa
+os.system("cls")
 
 print("---TABLA DE MULTIPLICAR POR NÚMEROS---")
 n=int(input("Introduzca el número: "))
