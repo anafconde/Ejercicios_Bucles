@@ -1,6 +1,7 @@
 # Author: Luis Palacios
 # Version: 1.0
 
+# 4️⃣ Ejercicio 4: Contar números positivos, negativos e iguales a cero ➗
 # Realizar un algoritmo que pida números (se pedirá por teclado la cantidad de números a introducir).
 # El programa debe informar de cuantos números introducidos son mayores que 0, menores que 0 e iguales a 0.
 
