@@ -11,9 +11,7 @@ import random
 def adivina_el_numero():
     numero_a_adivinar = random.randint(1, 100)
     intentos_restantes = 10
-
-    print("¡Bienvenido al juego de adivinar el número!")
-    print("He generado un número entre 1 y 100. Tienes 10 intentos para adivinarlo.")
+    print("Adivina el numero del 1 al 100")
 
     while intentos_restantes > 0:
         try:
