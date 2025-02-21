@@ -10,7 +10,6 @@
 
 #•Cuantos números están fuera del intervalo.
 
-#•He informa si hemos introducido algún número igual a los límites del intervalo.
 liminferior = int(input("Introduce el limite inferior: "))
 limsuperior = int(input("Introduce el limite superior: "))
 while liminferior > limsuperior:
