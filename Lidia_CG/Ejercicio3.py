@@ -12,8 +12,8 @@ while n!=0:
     if n==0:
         break
 
-suma=suma+n
-contador=contador+1
+    suma=suma+n
+    contador=contador+1
 
 if contador > 0:
     media = suma / contador

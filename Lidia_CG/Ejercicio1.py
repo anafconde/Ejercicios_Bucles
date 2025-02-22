@@ -8,10 +8,14 @@ num=int(input("Dime un número que quieras factorizar: "))
 
 if num < 0:
     print("El factorial no está definido para números negativos")
+elif num==0:
+    print("0!= 1")
 else:
     factorial = 1
     for n in range(1, num + 1):
         factorial= factorial*n
 
     print(f"{num}! = {factorial}")
+
+
 

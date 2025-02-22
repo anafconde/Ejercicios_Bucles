@@ -6,7 +6,7 @@
 caracter=0
 
 while caracter!=" ":
-    caracter=(input("Dime una letra: "))
+    caracter=input("Dime una letra: ")
     caracter=caracter.lower()
 
     if caracter == " ":

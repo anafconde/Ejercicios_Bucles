@@ -5,9 +5,9 @@
 
 num=int(input("Dime un número del que quieras la tabla de multiplicar: "))
 
-for n in range(1, 11):
+for n in range(0, 11):
     
- print(f"{n} x {n} = {num * n}")
+ print(f"{num} x {n} = {num * n}")
 
 # n=1
 # while n <= 10:
