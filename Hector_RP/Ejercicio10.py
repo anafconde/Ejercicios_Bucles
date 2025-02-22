@@ -1,14 +1,12 @@
 #version 1.0
 #author Héctor RP
-#Algoritmo que muestre la tabla de multiplicar de los números 1,2,3,4 y 5.
+#Ejercicio 10
 
-numero = 1
+numero = int(input("Introduce el número de la tabla de multiplicar (hasta el 5): "))
 
-while numero <= 5:
+if numero > 5:
+    print("No puedo multiplicar por números mayores a 5")
+else:
     print(f"Tabla de multiplicar del {numero}:")
-    contador = 1
-    while contador <= 10:
-        print(f"{numero} x {contador} = {numero * contador}")
-        contador = contador + 1
-    print("Tabla del numero", numero)
-    numero = numero + 1
+    for j in range(1, 11):
+        print(f"{numero} x {j} = {numero * j}")
