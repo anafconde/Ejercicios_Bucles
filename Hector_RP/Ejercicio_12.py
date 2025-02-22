@@ -1,3 +1,5 @@
+# Version: 1.0
+# Author: Hector Ramirez Pineda
 # Ejercicio_12.py
 
 ahorros_totales = 0
