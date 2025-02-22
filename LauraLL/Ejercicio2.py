@@ -6,8 +6,9 @@
 # además de los intentos que te quedan (tienes 10 intentos para acertarlo). El programa termina cuando se acierta 
 # el número (además te dice en cuántos intentos lo has acertado), y si llegas al límite de intentos, te muestra el número generado
 
-#-----Importador de programas----
+#----Importador de bibliotecas---
 import random #biblioteca generadora de números random
+import os
 
 #---Inicializador de variables---
 n=random.randint(1,100)
@@ -15,14 +16,18 @@ contador_fallo=10
 contador_acierto=0
 
 #---Inicializador del programa---
+    # Limpio la pantalla antes de entrar al programa
+os.system("cls")
+
 for i in range(1,11):
     print("")
     print(f"Intento número {i}")
     print("")
     n2=int(input("Introduzca un número del 1 al 100: "))
+    # Al dar una respuesta, el contador de los intentos restantes disminuye y el que cuenta los intentos que está haciendo, aumenta
     contador_fallo=contador_fallo-1
     contador_acierto=contador_acierto+1
-    if n2<n:
+    if n2<n: 
         print(f"El número {n2} es menor que el número a adivinar")
         print(f"Le quedan {contador_fallo} intentos")
     elif n2>n:

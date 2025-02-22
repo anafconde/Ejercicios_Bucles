@@ -3,8 +3,9 @@
 #-----Enunciado del ejercicio----
 # Realizar un ejemplo de menú, donde podemos escoger las distintas opciones hasta que seleccionamos la opción de “Salir”
 
-#-----Importador de programas----
+#----Importador de bibliotecas---
 import os
+
 #---Inicializador de variables---
 
 #---Inicializador del programa---

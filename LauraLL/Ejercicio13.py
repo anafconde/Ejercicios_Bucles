@@ -4,13 +4,16 @@
 # Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la semana (seis días) 
 # y requiere determinar el total de éstas, así como el sueldo que recibirá por las horas trabajadas
 
-#-----Importador de programas----
+#----Importador de bibliotecas---
+import os
 
 #---Inicializador de variables---
 total=0
 horas_t=0
 
 #---Inicializador del programa---
+    # Limpio la pantalla antes de entrar al programa
+os.system("cls")
 
 print("----PROGRAMA CALCULADOR HORAS TRABAJADAS----")
 sueldo=float(input("Introduzca el sueldo por hora del empleado: "))
